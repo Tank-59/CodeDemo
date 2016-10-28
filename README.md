@@ -1,2 +1,2 @@
 # hello-test
-just a test
+ Some thing about function， just a test
