@@ -1,2 +1,2 @@
-# hello-test
- Some thing about function， just for test
+# Code Demo
+ Some code about function， just for study & proctice
