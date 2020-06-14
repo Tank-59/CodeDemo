@@ -33,3 +33,19 @@ SingleDog.getInstance = (function () {
         return instance
     }
 })()
+
+// 单例模式 TypeScript
+class Demo {
+  private static instance: Demo; // 私有，存储new的demo
+  private constructor(){} // 不允许new创建实例
+
+  static getInstance() {
+    if(!this.instance){
+      this.instance = new Demo();
+    }
+    return this.instance
+  }
+}
+
+const demo1 = Demo.getInstance();
+const demo2 = Demo.getInstance();
