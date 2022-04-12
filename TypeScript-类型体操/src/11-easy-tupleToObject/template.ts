@@ -20,3 +20,5 @@ type rs = TupleToObject<typeof tuple>
 // 变为常量，不允许修改内部值
 // const tuple = ['tesla', 'model 3'] as const
 // tuple[0] = '123'
+
+// typeof  非类型 --> 类型
