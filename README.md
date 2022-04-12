@@ -1,2 +1,2 @@
 # Code Demo
- Some code about function， just for study & proctice
+for learning and practice
